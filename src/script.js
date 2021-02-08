@@ -57,7 +57,7 @@ if (a % 2 === 0) {
 
 let isLeapYear = prompt('Enter the year!');
 
-if (isLeapYear % 4 === 0) {
+if (((isLeapYear % 4 == 0) && (isLeapYear % 100 !=0)) || (isLeapYear % 400==0)){
   console.log('This is the leap year!');
 } else {
   console.log('this is not the leap year!');
@@ -90,6 +90,7 @@ if (ch === 'a' || ch ==='i'|| ch ==='u'|| ch ==='e'|| ch ==='o'
 
 
 
+
 //9.	Write a  program to input any character and check whether it is alphabet, digit or special character.
 
 let ch = prompt('Enter the character or digit(0 - 9):');
@@ -113,5 +114,4 @@ if (upCh >= 'A' && upCh <= 'Z') {
 } else {
   console('This is not alphabet!');
 }
-
 */
